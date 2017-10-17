@@ -15,5 +15,4 @@
 	$objSheet->fromArray($array);
 	$objWriter=PHPExcel_IOFactory::createWriter($objPHPExcel,'Excel2007');
 	$objWriter->save($dir.'/demo_1.xlsx');
-	echo '11';
 ?>
